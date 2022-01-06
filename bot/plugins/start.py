@@ -8,8 +8,8 @@ from ..screenshotbot import ScreenShotBot
 @ScreenShotBot.on_message(filters.private & filters.command("start"))
 async def start(c, m, cb=False):
     owner_id = Config.AUTH_USERS[0]
-    username = 'Mrk_YT'
-    mention = '[Mo Tech YT](https://t.me/Mo_Tech_YT)'
+    username = 'Thanos_090'
+    mention = '[MoVIES CLUB](https://t.me/+-DLcYSDU1JViNWY9)'
     try:
         owner = await c.get_users(owner_id)
         username = owner.username if owner.username else 'Ns_AnoNymous'
@@ -19,7 +19,7 @@ async def start(c, m, cb=False):
 
     BUTTONS = [[
         InlineKeyboardButton("My Father 🧔", url=f"https://t.me/{username}"),
-        InlineKeyboardButton("Updates Channel 🔰", url="https://t.me/Mo_Tech_YT")
+        InlineKeyboardButton("Movies Channel 🔰", url="https://t.me/+-DLcYSDU1JViNWY9")
         ],[
         InlineKeyboardButton("🖥️ How To Own 🖥️", url="https://youtu.be/lGlczIZ4HTI")
         ],[
@@ -30,7 +30,7 @@ async def start(c, m, cb=False):
     ]]
 
     TEXT = f"👋 Hi {m.from_user.mention},\n\nI'm Screenshot Generator Bot. I can provide screenshots, sample video from "
-    TEXT += "your video files and also can trim. For more details check help.\n\n"
+    TEXT += "your video files and also can trim. For more details check help.Maintained By Movies Club\n\n"
     TEXT += f"**Maintained By:** {mention}"
 
     if cb:
