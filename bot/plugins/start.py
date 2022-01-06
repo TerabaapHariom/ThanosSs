@@ -21,8 +21,6 @@ async def start(c, m, cb=False):
         InlineKeyboardButton("My Father 🧔", url=f"https://t.me/{username}"),
         InlineKeyboardButton("Movies Channel 🔰", url="https://t.me/+-DLcYSDU1JViNWY9")
         ],[
-        InlineKeyboardButton("🖥️ How To Own 🖥️", url="https://youtu.be/lGlczIZ4HTI")
-        ],[
         InlineKeyboardButton("Help ⁉️", callback_data="help"),
         InlineKeyboardButton("Settings ⚙", callback_data="set+settings")
         ],[
